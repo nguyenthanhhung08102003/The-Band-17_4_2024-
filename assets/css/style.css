@@ -50,6 +50,8 @@
     color: #fff;
     padding: 10px 15px;
     font-size: 15px;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 
@@ -459,6 +461,18 @@ html {
 
 .contact-info i[class*="fa-"] {
     width: 24px;
+}
+
+
+
+.contact-info a {
+    color: #000;
+}
+
+
+
+.contact-info a:hover {
+    opacity: 0.6;
 }
 
 
